@@ -1,0 +1,64 @@
+jordanauerbach@me.com
+
+
+Linkedin, email
+
+- FE or BE
+- Skills
+- Address
+- Where did you find?
+- Why are you interested in toptal?
+- Explain past project used above skills
+- Team leader experience?
+- How was 2 step?
+
+
+- login form
+- not alloed to add additonal HTML
+- not use refs
+
+- button should trigger the performLogin() action imported above and pass required data to it
+- Diable the Login button if email is blank or passs is udner 6
+- Diable Login while login
+- Show alert box if login success
+- show error msg if login failed
+
+denominations: 1c, 5c, 10c, 25c, 50c, and $1. 
+getChange(5, 0.99) => [1, 0, 0, 0, 0, 0, 4]
+getChange(3.14, 1.99) => [0, 1, 1, 0, 0, 0, 1]
+const coins = [100, 50, 25, 10, 5, 1]
+getChange(cost1, cost2) {
+  let diffCost = (cost1 - cost2) * 100;
+
+  let result = [];
+  coins.forEach((c) => {
+	const nextDiff = diffCost % c;
+	const cItem = (diffCost - nextDiff) / c;
+        result.push(c);
+	diffCost = nextDiff;
+  })    
+
+  return result.revert();
+}
+
+- Step4
+1. What is the automotic design pattern? 
+the smallest component will be atomic one
+and the group of the components will be molecules..
+this is the atomic design pattern
+2. how to update page in react? VirtualDom
+3. The pros of React instead of Angular, Vue? 
+Angular, Vue are all SPA frameworks
+but React is better bc it's really good
+4. about class and function components? 
+so fucntional component is relaly good
+bc we can really write the tests for functional components
+5. How to save data temperaly? 
+localstorage
+for large scale project devleopment
+because it's really easy to build the shared components
+6. manage state? 
+Redux-saga, thunk, mobx, context API
+7. Store JWT. 
+need find another solution to store JWT
+bc it's not safe and is accessible through JS

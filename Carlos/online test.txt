@@ -1,0 +1,5 @@
+1. increase(reactingle, number, 1 - 45, increasing when clicking) 
+
+2. add  (form, letter, remaining 1 of 3 tasks)
+
+3. filter(form, fetch, filter by letter)

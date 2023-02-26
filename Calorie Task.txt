@@ -1,0 +1,59 @@
+This is a very stupid code. You will need to change code structure and a few things. 
+I will see your coding skills(code quality, making function and variable names, etc.)
+
+1. After adding new food, reports should be sorted from latest one. 
+2. After adding new one, clear form fields. 
+3. Filtering is not working properly for some specific days. 
+- admin => details => last 7 days (detailed dates label)
+- the limit threshold is 2100, it's default value. Also, admin can change the threshold in the db per user. 
+- splite components, each file should has around 150 - 200 lines. 
+- remove unnessery code. 
+- Fix all console bugs and warnings. 
+
+
+
+Task: Simple Calorie Wep App
+We would like to see how you would create a calorie tracking app.
+Users should be able to enter their food entries along with the number of calories for each food entry.
+
+Stack: React, Redux, Node, Express, MongoDB, Bootstrap, Material-UI, RESTful API. 
+Should be mobile responsive(Android/iOS). 
+
+Task functionalities
+
+Users should be able to manage food entries
+1. A user should be able to add a new food entry
+2. Food entry should contain the following information:
+○ Date/time when the food was taken
+○ Food/product name (i.e. Milk, banana, hamburger)
+○ Calorie value (numeric value)
+3. The first screen a user should see is the list of existing food entries. 
+
+Calorie limit warning per day
+4. The daily threshold limit of calories should be 2100.
+○ Ensure the users can see for which day they reached that limit. Also, ensure it is easy to change that limit in the code, per user. 
+You don’t have to create an interface for this purpose.
+
+Admin role with a simple reporting
+5. Implement an admin role
+6. Admin can see a screen with all added food entries of all users and manage existing food entries (read, update, create, delete)
+7. Admin should also see the report screen with the following information. 
+○ Number of added entries in the last 7 days vs. added entries the week before that. 
+Please Include the current day in those stats
+○ The average number of calories added per user for the last 7 days
+○ A regular user should not be able to access this reporting screen or access its data
+
+User authentication/authorization
+8. Please use a token authentication method. 
+Fully-functional login process is not mandatory. Please refer to the requirements for the exact flow that is expected.
+The login process can be simplified by using predefined tokens for the different users of the application. If you want you can create a fully-functional login process.
+
+Autocomplete feature
+9. Implement autocomplete name feature and autocompleting calorie value using Nutritionix API. By providing this functionality you will help the user add a product title and number of calories
+10. If the Nutritionix API cannot provide you with such information, then the user must fill in everything manually.
+
+Filtering by dates
+11. Users should be able to filter food entries by entry date (date from / date to)
+12. Place filter fields on the same screen where the list of previously added food entries is
+
+Short project video - after you are done, please provide us with a simple and short video recording of the functionality and submit it to the GIT repository.

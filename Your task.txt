@@ -1,0 +1,24 @@
+This is a very stupid code. You will need to change the code structure and a few things. 
+I will see your coding skills(code quality, making function, and variable names, etc.)
+
+1. After adding new food, reports should be sorted from the latest one. 
+2. After adding a new one, clear form fields. 
+3. Filtering is not working properly for some specific days. 
+4. In the Admin side, remove the "DETAILS" button and add a table to show the report page. 
+
+	No | User  |		 The Last 7 Days    		|  The Week Before	    
+        	     Number of Entries | Average Daily Calories	   Number of Entries
+		     Current Day: 				   Current Day: 
+	1   User1         x			x   			  x
+	2   User2         x			x 			  x
+	3   User3         x			x 			  x
+	... ... 
+
+5. The limit threshold is 2100, it's the default value. 
+Currently, all users can't add more than 2100 as the limit value is 2100. 
+But I just want to make that all users can add more than 2100 and Ensure the users can see for which day they reached that limit. 
+Also, the admin can change the threshold in the DB per user. 
+6. Split components(Home.js, AdminHome.js), each file should have around 150 - 200 lines. 
+7. Remove unnecessary code. 
+8. Change the folder structure, function and variable names. 
+9. Fix all console bugs and warnings. 
